@@ -11,6 +11,6 @@ class EmailAddressParser
   end
   
   def parse 
-    @email_address.split(/[\,\s]+/).uniq
+    @email_address.split(/[\,\s]+/).uniq #([] groups them, + tells that it will happen multiple times)
   end
 end
